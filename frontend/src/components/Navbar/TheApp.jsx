@@ -21,7 +21,9 @@ const TheApp = () => {
                         <div data-aos="fade-up" data-aos-duration="300" className="space-y-6 max-w-xl mx-auto" >
                             {/* TEXT */}
                             <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold text-white/90 pl-3">
-                                THE COFFEE SHOP is available for Android and IOS
+                                New launch alert.
+                                <br />
+                                Ready. Set. Get.
                             </h1>
                             
                             {/* IMAGE */}

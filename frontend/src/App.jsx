@@ -7,6 +7,7 @@ import Services from './components/Navbar/Services';
 import Banner from './components/Navbar/Banner';
 import TheApp from './components/Navbar/TheApp';
 import Testimonials from './components/Navbar/Testimonials';
+import Footer from './components/Navbar/Footer';
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
       <Banner/>
       <TheApp/>
       <Testimonials/>
+      <Footer/>
     </div>
   )
 }

@@ -82,7 +82,7 @@ const Testimonials = () => {
                 {/* HEADER SECTION */}
                 <div className="mb-10">
                     <h1 data-aos="fade-up" className="text-center text-4xl font-bold font-cursive" >
-                        Testimonials
+                        Reviews
                     </h1>
                 </div>
 
