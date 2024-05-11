@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="container py-2">
             <div className="flex justify-between items-center gap-4">
                 {/* LOGO SECTION */}
-                <div>
+                <div  data-aos="fade-down" data-aos-once="true">
                     <a href="#" className="font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive">
                         <img src={Logo} alt="" className="w-14" />
                         THE COFFEE SHOP
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
 
                 {/* LINK SECTION */}
-                <div className="flex justify-between items-center gap-4">
+                <div data-aos="fade-down" data-aos-once="true" data-aos-delay="300" className="flex justify-between items-center gap-4">
                     {/* NAVIGATION ITEMS */}
                     <ul className="hidden sm:flex items-center gap-4">
                         {Menu.map((menu) => (

@@ -3,6 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Navbar/Home';
+import Services from './components/Navbar/Services';
+import Banner from './components/Navbar/Banner';
+import TheApp from './components/Navbar/TheApp';
 
 const App = () => {
 
@@ -19,6 +22,9 @@ const App = () => {
     <div className="overflow-x-hidden">
       <Navbar/>
       <Home/>
+      <Services/>
+      <Banner/>
+      <TheApp/>
     </div>
   )
 }

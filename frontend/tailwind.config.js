@@ -22,6 +22,9 @@ export default {
           sm: "3rem",
         },
       },
+      animation: {
+        "spin-slow": "spin 40s linear infinite",
+      },
     },
   },
   plugins: [],
