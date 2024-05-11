@@ -4,12 +4,12 @@ import PlayStoreImg from "../../assets/website/play_store.png";
 import BgPng from "../../assets/website/coffee-beans-bg.png";
 
 const backgroundStyle = {
-  backgroundImage: `url(${BgPng})`,
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  height: "100%",
-  width: "100%",
+    backgroundImage: `url(${BgPng})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    height: "100%",
+    width: "100%",
 };
 
 const TheApp = () => {
