@@ -13,8 +13,7 @@ const App = () => {
       easing: "ease-in",
       delay: 100,
     });
-    AOS.refresh();
-  }, []);
+  });
 
   return (
     <div className="overflow-x-hidden">
