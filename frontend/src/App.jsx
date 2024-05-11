@@ -6,6 +6,7 @@ import Home from './components/Navbar/Home';
 import Services from './components/Navbar/Services';
 import Banner from './components/Navbar/Banner';
 import TheApp from './components/Navbar/TheApp';
+import Testimonials from './components/Navbar/Testimonials';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
       <Services/>
       <Banner/>
       <TheApp/>
+      <Testimonials/>
     </div>
   )
 }
